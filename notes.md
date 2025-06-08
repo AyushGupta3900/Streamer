@@ -48,3 +48,31 @@ app.listen(PORT,()=>{
     console.log(`Server is running at http://localhost:${PORT}`);
 });
 ```
+
+```
+git config --global user.name "Ayush Gupta"
+git config --global user.email "12211028a@gmail.com"
+git remote add origin https://github.com/AyushGupta3900/Streamer.git
+
+Option 1: Check the current remote
+
+Run this to see the existing remote:
+
+git remote -v
+You'll get something like:
+
+origin  https://github.com/OldUser/OldRepo.git (fetch)
+origin  https://github.com/OldUser/OldRepo.git (push)
+
+Option 2: Change the remote to the new GitHub repo
+
+If the remote is pointing to the wrong repo (or you want to update it), run:
+
+git remote set-url origin https://github.com/AyushGupta3900/Streamer.git
+Then push:
+
+OR REMOVE THE ORIGIN 
+git remote remove origin
+
+git push -u origin main
+```
