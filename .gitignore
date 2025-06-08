@@ -4,3 +4,9 @@
 .env
 /backend/.env
 /frontend/.env
+/backend/package-lock.json
+/frontend/package-lock.json
+/backend/package-lock.json
+/frontend/package-lock.json
+/notes.md
+/notes.pdf
